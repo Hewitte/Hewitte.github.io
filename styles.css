@@ -1,0 +1,119 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color:white;
+    
+}
+header{
+    background-color:#333333;
+    position:fixed;
+    width:100%;
+    z-index: 1;
+    margin: 0;
+  padding: 0;
+}
+
+nav li{
+    display:inline-block;
+    color:white;
+    width:80px;
+    padding:8px;
+}
+
+
+nav{
+    padding: 10px 0;
+}
+
+main{
+    text-align: center;
+    position: relative;
+    top:80px;
+    margin: 0;
+  padding: 0;
+    
+}
+
+main h1{
+    color: black;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+ 
+
+    
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 940px;
+
+}
+
+.introduction{
+    height: 500px;
+    background-image: url("./images/storm.png");
+    background-size:cover;
+    margin: 0;
+  padding: 0;
+}
+
+
+
+
+.additional{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.additional .tile{
+    width: 30%; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.additional .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+    
+  }
+
+.additional a{
+    background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333; 
+}
+
+.additional p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+
+ 
