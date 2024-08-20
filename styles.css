@@ -44,7 +44,7 @@ nav{
 .header .logo{
     flex-grow: 0;
     margin-right: auto;
-    
+    text-decoration: none;
   }
 
 
@@ -152,12 +152,17 @@ main p{
   }
 
  
-footer, footer a{
+footer{
     background-color:#333333;
     text-align: center;
     color: white;
+    
 }
 
 footer p, footer h4{
     margin-bottom: 3px;
+}
+
+a{
+    color: white;
 }
