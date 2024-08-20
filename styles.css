@@ -136,3 +136,12 @@ main p{
   }
 
  
+footer, footer a{
+    background-color:#333333;
+    text-align: center;
+    color: white;
+}
+
+footer p, footer h4{
+    margin-bottom: 3px;
+}
